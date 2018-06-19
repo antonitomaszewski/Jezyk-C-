@@ -1,0 +1,9 @@
+typedef (unsigned char) UnsignedChar -- typ unsigned char;
+typedef (const UnsignedChar) ConstUnsignedChar -- typ const unsigned char;
+typedef int* IntegerPointer -- wskaźnik do liczby całkowitej;
+typedef char** PointerPointerChar -- wskaźnik do wskaźnika do znaku;
+typedef char* PointerArrayChar -- wskaźnik do tablicy znaków;
+typedef IntegerPointer Array7IntegerPointer[7] -- tablica 7. wskaźników do liczb całkowitych;
+typedef Array7Pointer* PointerArray7IntegerPointer --wskaźnik do tablicy 7. wskaźników do liczb całkowitych;
+typedef IntegerPointer Array8Array7IntegerPointer[8][7] -- tablica 8. tablic z 7 wskaźnikami do liczb całkowitych;
+
